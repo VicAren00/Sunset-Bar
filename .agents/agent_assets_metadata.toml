@@ -1,0 +1,50 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "qt4zfRKnnTX_K939Txkhy"
+uri = "file://artifacts/sunset-bar/src/assets/hero-bg.png"
+type = "image"
+title = "Neon bar interior hero background"
+
+[[generated]]
+id = "dCkTGpf-I3Oka9Ej54R6b"
+uri = "file://artifacts/sunset-bar/src/assets/drink-1.png"
+type = "image"
+title = "Magenta cocktail in dark bar"
+
+[[generated]]
+id = "22m8A-no8KOTzme0Q2BB1"
+uri = "file://artifacts/sunset-bar/src/assets/drink-2.png"
+type = "image"
+title = "Sunset orange margarita with salt"
+
+[[generated]]
+id = "NH-oAD_qmIYnRldYQR-F-"
+uri = "file://artifacts/sunset-bar/src/assets/drink-3.png"
+type = "image"
+title = "Michelada with chamoy rim"
+
+[[generated]]
+id = "gLHQ3fGixKHXulV7t7iOg"
+uri = "file://artifacts/sunset-bar/src/assets/gallery-1.png"
+type = "image"
+title = "People clinking drinks in bar"
+
+[[generated]]
+id = "jeNmkLjBpb1FBxVWMxwd2"
+uri = "file://artifacts/sunset-bar/src/assets/gallery-2.png"
+type = "image"
+title = "Bartender pouring a drink"
+
+[[generated]]
+id = "a8kpfiIAeYPqcvodX9RFl"
+uri = "file://artifacts/sunset-bar/src/assets/gallery-3.png"
+type = "image"
+title = "Friends laughing in a lounge"
+
+[[generated]]
+id = "qSzrJEUxUMwP0awQE0_Yn"
+uri = "file://artifacts/sunset-bar/src/assets/gallery-4.png"
+type = "image"
+title = "Glowing neon sign on wall"

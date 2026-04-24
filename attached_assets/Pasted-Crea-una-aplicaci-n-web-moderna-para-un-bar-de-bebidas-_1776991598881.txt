@@ -1,0 +1,69 @@
+Crea una aplicación web moderna para un bar de bebidas llamado "Sunset Bar".
+
+Concepto del negocio:
+
+Identidad emocional y social.
+Frase principal: "Nos gusta mucho ser de aquí"
+Frase secundaria: "Amamos las noches que no podemos recordar con amigos que no podemos olvidar"
+7 años creando experiencias.
+
+Ubicación:
+
+Emiliano Zapata #48, San Diego, Jalisco, México.
+
+Objetivo:
+Transmitir una experiencia nocturna única, atractiva para jóvenes y adultos que buscan convivir, relajarse y disfrutar bebidas en un ambiente especial.
+
+Requisitos:
+
+Diseño:
+Estilo moderno, nocturno y elegante.
+Paleta de colores: tonos oscuros (negro, morado, azul marino) con acentos neón (rosa, naranja tipo atardecer).
+Tipografía llamativa y estilizada (tipo bar/lounge).
+Fondo con degradados estilo sunset o luces difuminadas.
+Totalmente responsive (móvil y escritorio).
+Secciones principales:
+Inicio:
+Nombre del bar con animación.
+Frases del concepto (destacadas visualmente).
+Imagen o video de fondo estilo nightlife.
+Sobre nosotros:
+Historia breve: "7 años creando experiencias".
+Enfoque en convivencia, amigos, noches memorables.
+Menú:
+Categorías de bebidas:
+Cocteles
+Bebidas preparadas
+Cervezas
+Shots
+Mostrar imágenes y precios simulados.
+Experiencia:
+Ambiente nocturno
+Música
+Convivencia
+Espacio social
+Ubicación:
+Dirección completa
+Integrar mapa (Google Maps si es posible)
+Contacto:
+Botón de WhatsApp (simulado)
+Redes sociales (Instagram, Facebook simulados)
+Extras:
+Animaciones suaves (fade-in, hover en botones).
+Efectos de luces neón o glow en títulos.
+Botón "Reservar mesa" (visual).
+Sección de galería con fotos tipo fiesta/bar.
+Footer elegante con branding.
+Tecnologías:
+HTML, CSS y JavaScript (o React si es posible).
+Código limpio, modular y comentado.
+Opcional:
+Sistema básico de reservaciones (formulario).
+Contador de visitantes o eventos.
+Playlist simulada (UI tipo música).
+
+Entrega:
+
+Código completo listo para ejecutarse en Replit.
+Estructura organizada de archivos.
+Buenas prácticas de diseño y desarrollo.
