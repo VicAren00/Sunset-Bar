@@ -1,6 +1,8 @@
 {
   "framework": "vite",
-  "outputDirectory": "dist",
+  "installCommand": "pnpm install",
+  "buildCommand": "pnpm --filter @workspace/sunset-bar run build",
+  "outputDirectory": "artifacts/sunset-bar/dist/public",
   "rewrites": [
     {
       "source": "/(.*)",
