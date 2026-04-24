@@ -467,6 +467,23 @@ export default function Home() {
           © {new Date().getFullYear()} Sunset Bar. Todos los derechos reservados.<br/>
           Emiliano Zapata #48, San Diego, Jalisco.
         </p>
+
+        <div className="mt-10 pt-8 border-t border-white/10 max-w-3xl mx-auto">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-10 text-left">
+            <div className="text-sm text-muted-foreground space-y-1">
+              <p><span className="text-foreground/80 font-semibold">Nombre del alumno:</span> Víctor Abraham Arenas Ríos</p>
+              <p><span className="text-foreground/80 font-semibold">Materia:</span> Desarrollo Web</p>
+              <p><span className="text-foreground/80 font-semibold">Profesor:</span> Zeus Emmanuel Gutierrez Cobian</p>
+              <p><span className="text-foreground/80 font-semibold">Calendario:</span> 26A</p>
+            </div>
+            <img
+              src="https://res.cloudinary.com/dmb6uv3zd/image/upload/f_auto,q_auto/Escudo_CUCEI.svg_ei6lwm"
+              alt="Escudo CUCEI"
+              loading="lazy"
+              className="h-24 sm:h-28 w-auto shrink-0"
+            />
+          </div>
+        </div>
       </footer>
     </main>
   );
