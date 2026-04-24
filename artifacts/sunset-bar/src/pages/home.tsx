@@ -104,10 +104,73 @@ export default function Home() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
+            className="relative mb-6"
           >
-            <h1 className="text-6xl sm:text-8xl md:text-9xl font-bold uppercase tracking-tighter mb-6 neon-text text-primary-foreground font-display">
-              Sunset Bar
-            </h1>
+            <p className="text-xs sm:text-sm tracking-[0.5em] text-secondary/90 mb-3 font-light" style={{ textShadow: '0 0 8px rgba(255,140,80,0.6)' }}>
+              BY LUNAVA
+            </p>
+
+            <div className="relative inline-block px-8 sm:px-16">
+              {/* Neon purple palm trees behind the logo */}
+              <svg
+                aria-hidden="true"
+                viewBox="0 0 200 200"
+                className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-2 sm:-translate-x-6 w-20 sm:w-32 md:w-40 h-auto opacity-90 pointer-events-none"
+                style={{ filter: 'drop-shadow(0 0 8px #a855f7) drop-shadow(0 0 16px #7c3aed)' }}
+              >
+                <g fill="none" stroke="#c084fc" strokeWidth="3" strokeLinecap="round">
+                  <path d="M100 200 Q 95 130 100 60" />
+                  <path d="M100 65 Q 60 50 35 70" />
+                  <path d="M100 65 Q 70 35 50 20" />
+                  <path d="M100 65 Q 130 30 160 25" />
+                  <path d="M100 65 Q 145 55 175 75" />
+                  <path d="M100 65 Q 80 30 70 10" />
+                  <path d="M100 65 Q 120 35 135 15" />
+                </g>
+                <circle cx="100" cy="62" r="4" fill="#e9d5ff" />
+              </svg>
+              <svg
+                aria-hidden="true"
+                viewBox="0 0 200 200"
+                className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-2 sm:translate-x-6 w-20 sm:w-32 md:w-40 h-auto opacity-90 pointer-events-none scale-x-[-1]"
+                style={{ filter: 'drop-shadow(0 0 8px #a855f7) drop-shadow(0 0 16px #7c3aed)' }}
+              >
+                <g fill="none" stroke="#c084fc" strokeWidth="3" strokeLinecap="round">
+                  <path d="M100 200 Q 95 130 100 60" />
+                  <path d="M100 65 Q 60 50 35 70" />
+                  <path d="M100 65 Q 70 35 50 20" />
+                  <path d="M100 65 Q 130 30 160 25" />
+                  <path d="M100 65 Q 145 55 175 75" />
+                  <path d="M100 65 Q 80 30 70 10" />
+                  <path d="M100 65 Q 120 35 135 15" />
+                </g>
+                <circle cx="100" cy="62" r="4" fill="#e9d5ff" />
+              </svg>
+
+              <h1 className="relative text-6xl sm:text-8xl md:text-9xl font-bold tracking-tighter neon-text text-primary-foreground font-display leading-none">
+                <span className="italic font-light pr-2" style={{ fontFamily: 'Georgia, "Times New Roman", serif' }}>Sunset</span>
+                <span className="uppercase">Bar</span>
+              </h1>
+            </div>
+
+            {/* Small purple stars above SINCE 2015 */}
+            <div className="flex justify-center gap-2 mt-4 mb-1" aria-hidden="true">
+              {[0, 1, 2, 3, 4].map((i) => (
+                <svg
+                  key={i}
+                  viewBox="0 0 24 24"
+                  className="w-2.5 h-2.5 sm:w-3 sm:h-3"
+                  fill="#c084fc"
+                  style={{ filter: 'drop-shadow(0 0 4px #a855f7) drop-shadow(0 0 8px #7c3aed)' }}
+                >
+                  <path d="M12 2l2.39 7.36H22l-6.2 4.5 2.4 7.36L12 16.72l-6.2 4.5 2.4-7.36L2 9.36h7.61z" />
+                </svg>
+              ))}
+            </div>
+
+            <p className="text-xs sm:text-sm tracking-[0.5em] text-secondary/90 font-light" style={{ textShadow: '0 0 8px rgba(255,140,80,0.6)' }}>
+              SINCE 2015
+            </p>
           </motion.div>
           
           <motion.div
