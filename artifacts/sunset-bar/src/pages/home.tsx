@@ -306,7 +306,17 @@ export default function Home() {
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16">
           <div className="space-y-8">
             <h2 className="text-4xl md:text-5xl font-bold font-display text-primary">Dónde Encontrarnos</h2>
-            
+
+            <div className="relative rounded-2xl overflow-hidden border border-white/10 neon-box aspect-[4/3]">
+              <img
+                src="https://res.cloudinary.com/dmb6uv3zd/image/upload/f_auto,q_auto/bar_ulj4db"
+                alt="Sunset Bar"
+                loading="lazy"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-background/70 via-transparent to-transparent pointer-events-none"></div>
+            </div>
+
             <div className="space-y-6 text-lg">
               <div className="flex items-start gap-4">
                 <MapPin className="w-6 h-6 text-secondary shrink-0 mt-1" />
